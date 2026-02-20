@@ -1,0 +1,5 @@
+IndentWidth: 4      # 4 spaces per indent
+TabWidth: 4         # tab width
+UseTab: Never       # never use actual tab characters
+ColumnLimit: 0
+SortIncludes: false

@@ -1,0 +1,7 @@
+# ninja log v7
+166	269	1771588241508851796	/home/zepyx/Projects/C++/alkane-engine/build/CMakeFiles/cmake.verify_globs	a757599b02f4580c
+270	5250	1771588241612850732	CMakeFiles/alkane.dir/src/main.cpp.o	2ac37bd11e87b35e
+133	3219	1771429913687700655	CMakeFiles/alkane.dir/src/glad.c.o	d8f75a3165222b0a
+5250	6309	1771588246592799645	alkane	bc712acdc64e2d8c
+1	492	1771429756389090792	CMakeFiles/alkane_engine.dir/src/glad.c.o	d7506604d1f6e944
+492	730	1771429756880092312	libalkane_engine.a	1e4437990efb03f4
