@@ -5,6 +5,9 @@ after knowing what's alkane and you want to use it.
 ## Installation
 As there isn't a way to install the framework right now. Prefer copying the libs directly to /usr/include
 
+> [!NOTE]
+> You should have KHR/khrplatform.h, glad/glad.h, GLFW/glfw3.h and stb_image.h installed. 
+
 ```
 git clone https://github.com/alkane-framework/alkane-engine.git
 cd alkane-engine
