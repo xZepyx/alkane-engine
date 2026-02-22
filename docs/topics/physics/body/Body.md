@@ -79,6 +79,3 @@ You can also flip the useGravity bool to simulate gravity.
 ```
 body.useGravity = true;
 ```
-
-## Continue
-Either read the [Collision Docuementation](../collisions/Collisions.md) or the [Input Documentation](../../input/Input.md) next.

@@ -142,7 +142,3 @@ MOUSE_5
 ---
 
 After this you should be able to move, click, and blame input bugs on something else.
-
-## Continue
-
-Search for what you need in the [topics](../../topics/) dir.

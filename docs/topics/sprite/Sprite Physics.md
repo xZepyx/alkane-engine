@@ -22,6 +22,3 @@ sprite.body.vx += 1.0f
 sprite.body.vy += 1.0f
 sprite.body.useGravity = true;
 ```
-
-## Continue
-Read [Physics Body Documentation](../physics/body/Body.md) or [Input Documentation](../../input/Input.md) (to learn how to move the sprite using keys etc.) next.

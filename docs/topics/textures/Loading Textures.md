@@ -120,8 +120,3 @@ Arguments may start later.
 ---
 
 After this your rectangles should look less like rectangles.
-
-## Continue
-
-* Go to the [Previous Page](../sprite/CreatingASprite.md)
-  or choose another topic from the [topics directory](../../topics/)

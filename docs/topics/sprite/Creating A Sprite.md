@@ -52,7 +52,4 @@ struct Sprite {
 
 If you want to know about the 'body' struct you may read the documentation about [Physics Body](../physics/body/Body.md)
 
-To learn how to load texture you may read the [Texture Documentation](../textures/LoadingATexture.md)
-
-## Continue
-After this you may read the [Sprite Physics](./SpritePhysics) Documentation.
+To learn how to load texture you may read the [Texture Documentation](../textures/Loading%20Textures.md)

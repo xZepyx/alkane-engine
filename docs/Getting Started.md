@@ -22,5 +22,4 @@ Now after installing the framework you should be able to import headers like: `#
   - Make a CMakeLists or whatever way you use to compile ur projects.
   - Test: Try import headers to confirm installation
 
-## Continue
-Go to the [Next Page](./CreatingAWindow.md) 
+---

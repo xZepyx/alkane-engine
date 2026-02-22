@@ -120,8 +120,3 @@ Meaning: predictable > realistic.
 After this your objects should stop going through walls.
 
 If they still do — congratulations, you discovered tunneling.
-
-## Continue
-
-* Go to the [Previous Page](../body/Body.md)
-  or choose another topic from the [topics directory](../)
