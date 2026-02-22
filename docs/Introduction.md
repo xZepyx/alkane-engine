@@ -34,3 +34,6 @@ This section provides a structured overview of the Alkane Engine documentation.
 * Root
 
   * [README](./README.md)
+
+> [!NOTE]
+> These hyprlinks only work on github not on the website
