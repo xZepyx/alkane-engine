@@ -4,7 +4,7 @@
 #include <alkane/physics/constants.hpp>
 #include <alkane/physics/body.hpp>
 
-class Sprite : public Renderable {
+class Sprite2D : public Renderable {
 public:
     Body* body;
     GLuint texture;

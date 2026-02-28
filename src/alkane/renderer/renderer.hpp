@@ -1,29 +1,30 @@
 #pragma once
-#include <alkane/renderer/sprite.hpp>
+#include <alkane/geometry/geometry.hpp>
 #include <GLFW/glfw3.h>
 #include <sstream>
 
 class Renderer {
   public:
-    void draw(const Sprite &sprite) {
+    void draw(const Sprite2D &sprite) {
         drawQuad(sprite);
     }
 
-    /*void draw(Mesh& mesh) {
+    void draw(Mesh2D &mesh) {
         drawMesh(mesh);
-    }*/
+    }
 
   private:
-    void drawQuad(const Sprite &sprite) {
-        if (!sprite.body) return;
+    void drawQuad(const Sprite2D &sprite) {
+        if (!sprite.body)
+            return;
 
-        const Body* body = sprite.body;
+        const Body *body = sprite.body;
 
         float x = body->x;
         float y = body->y;
-        float width  = body->width;
+        float width = body->width;
         float height = body->height;
-        float angle  = body->angle;
+        float angle = body->angle;
 
         GLuint tex = sprite.texture;
 
@@ -48,7 +49,7 @@ class Renderer {
         // color parsing
         float r = 1.0f, g = 1.0f, b = 1.0f;
 
-        const std::string& hexColor = sprite.body->hexColor;
+        const std::string &hexColor = sprite.body->hexColor;
 
         if (!hexColor.empty() && hexColor[0] == '#' && hexColor.size() == 7) {
             unsigned int ri, gi, bi;
@@ -74,16 +75,20 @@ class Renderer {
 
         glBegin(GL_QUADS);
 
-        if (tex != 0) glTexCoord2f(0, 1);
+        if (tex != 0)
+            glTexCoord2f(0, 1);
         glVertex2f(0, 0);
 
-        if (tex != 0) glTexCoord2f(0, 0);
+        if (tex != 0)
+            glTexCoord2f(0, 0);
         glVertex2f(0, height);
 
-        if (tex != 0) glTexCoord2f(1, 0);
+        if (tex != 0)
+            glTexCoord2f(1, 0);
         glVertex2f(width, height);
 
-        if (tex != 0) glTexCoord2f(1, 1);
+        if (tex != 0)
+            glTexCoord2f(1, 1);
         glVertex2f(width, 0);
 
         glEnd();
@@ -96,5 +101,38 @@ class Renderer {
         glDisable(GL_TEXTURE_2D);
         glDisable(GL_BLEND);
     };
-    /*void drawMesh(const Mesh& mesh);*/
+
+    void drawMesh(const Mesh2D &mesh) {
+        if (mesh.vertices.empty())
+            return;
+
+        glEnable(GL_BLEND);
+        glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
+        if (mesh.texture != 0) {
+            glEnable(GL_TEXTURE_2D);
+            glBindTexture(GL_TEXTURE_2D, mesh.texture);
+        } else {
+            glDisable(GL_TEXTURE_2D);
+        }
+
+        glBegin(mesh.drawMode);
+        for (unsigned int idx : mesh.indices) {
+            if (idx >= mesh.vertices.size())
+                continue;
+            const Vertex2D &v = mesh.vertices[idx];
+
+            if (mesh.texture != 0)
+                glTexCoord2f(v.uv.x, v.uv.y); // assuming your Vertex2D has u,v for tex coords
+            glColor4f(v.r, v.g, v.b, v.a);    // assuming Vertex2D has r,g,b,a
+
+            glVertex2f(v.position.x, v.position.y);
+        }
+        glEnd();
+
+        if (mesh.texture != 0)
+            glBindTexture(GL_TEXTURE_2D, 0);
+        glDisable(GL_TEXTURE_2D);
+        glDisable(GL_BLEND);
+    };
 };

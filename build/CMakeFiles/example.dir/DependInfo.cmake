@@ -10,7 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/zepyx/Projects/Git/alkane-framework/alkane-engine/external/glad.c" "CMakeFiles/example.dir/external/glad.c.o" "gcc" "CMakeFiles/example.dir/external/glad.c.o.d"
   "/home/zepyx/Projects/Git/alkane-framework/alkane-engine/examples/main.cpp" "CMakeFiles/example.dir/examples/main.cpp.o" "gcc" "CMakeFiles/example.dir/examples/main.cpp.o.d"
-  "/home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/renderer/sprite.cpp" "CMakeFiles/example.dir/src/alkane/renderer/sprite.cpp.o" "gcc" "CMakeFiles/example.dir/src/alkane/renderer/sprite.cpp.o.d"
+  "/home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/geometry/mesh2d.cpp" "CMakeFiles/example.dir/src/alkane/geometry/mesh2d.cpp.o" "gcc" "CMakeFiles/example.dir/src/alkane/geometry/mesh2d.cpp.o.d"
+  "/home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/geometry/sprite2d.cpp" "CMakeFiles/example.dir/src/alkane/geometry/sprite2d.cpp.o" "gcc" "CMakeFiles/example.dir/src/alkane/geometry/sprite2d.cpp.o.d"
   "" "example" "gcc" "CMakeFiles/example.dir/link.d"
   )
 

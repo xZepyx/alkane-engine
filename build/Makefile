@@ -178,29 +178,53 @@ external/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/external/glad.c.s
 .PHONY : external/glad.c.s
 
-src/alkane/renderer/sprite.o: src/alkane/renderer/sprite.cpp.o
-.PHONY : src/alkane/renderer/sprite.o
+src/alkane/geometry/mesh2d.o: src/alkane/geometry/mesh2d.cpp.o
+.PHONY : src/alkane/geometry/mesh2d.o
 
 # target to build an object file
-src/alkane/renderer/sprite.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/alkane/renderer/sprite.cpp.o
-.PHONY : src/alkane/renderer/sprite.cpp.o
+src/alkane/geometry/mesh2d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/alkane/geometry/mesh2d.cpp.o
+.PHONY : src/alkane/geometry/mesh2d.cpp.o
 
-src/alkane/renderer/sprite.i: src/alkane/renderer/sprite.cpp.i
-.PHONY : src/alkane/renderer/sprite.i
+src/alkane/geometry/mesh2d.i: src/alkane/geometry/mesh2d.cpp.i
+.PHONY : src/alkane/geometry/mesh2d.i
 
 # target to preprocess a source file
-src/alkane/renderer/sprite.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/alkane/renderer/sprite.cpp.i
-.PHONY : src/alkane/renderer/sprite.cpp.i
+src/alkane/geometry/mesh2d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/alkane/geometry/mesh2d.cpp.i
+.PHONY : src/alkane/geometry/mesh2d.cpp.i
 
-src/alkane/renderer/sprite.s: src/alkane/renderer/sprite.cpp.s
-.PHONY : src/alkane/renderer/sprite.s
+src/alkane/geometry/mesh2d.s: src/alkane/geometry/mesh2d.cpp.s
+.PHONY : src/alkane/geometry/mesh2d.s
 
 # target to generate assembly for a file
-src/alkane/renderer/sprite.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/alkane/renderer/sprite.cpp.s
-.PHONY : src/alkane/renderer/sprite.cpp.s
+src/alkane/geometry/mesh2d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/alkane/geometry/mesh2d.cpp.s
+.PHONY : src/alkane/geometry/mesh2d.cpp.s
+
+src/alkane/geometry/sprite2d.o: src/alkane/geometry/sprite2d.cpp.o
+.PHONY : src/alkane/geometry/sprite2d.o
+
+# target to build an object file
+src/alkane/geometry/sprite2d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/alkane/geometry/sprite2d.cpp.o
+.PHONY : src/alkane/geometry/sprite2d.cpp.o
+
+src/alkane/geometry/sprite2d.i: src/alkane/geometry/sprite2d.cpp.i
+.PHONY : src/alkane/geometry/sprite2d.i
+
+# target to preprocess a source file
+src/alkane/geometry/sprite2d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/alkane/geometry/sprite2d.cpp.i
+.PHONY : src/alkane/geometry/sprite2d.cpp.i
+
+src/alkane/geometry/sprite2d.s: src/alkane/geometry/sprite2d.cpp.s
+.PHONY : src/alkane/geometry/sprite2d.s
+
+# target to generate assembly for a file
+src/alkane/geometry/sprite2d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/alkane/geometry/sprite2d.cpp.s
+.PHONY : src/alkane/geometry/sprite2d.cpp.s
 
 # Help Target
 help:
@@ -217,9 +241,12 @@ help:
 	@echo "... external/glad.o"
 	@echo "... external/glad.i"
 	@echo "... external/glad.s"
-	@echo "... src/alkane/renderer/sprite.o"
-	@echo "... src/alkane/renderer/sprite.i"
-	@echo "... src/alkane/renderer/sprite.s"
+	@echo "... src/alkane/geometry/mesh2d.o"
+	@echo "... src/alkane/geometry/mesh2d.i"
+	@echo "... src/alkane/geometry/mesh2d.s"
+	@echo "... src/alkane/geometry/sprite2d.o"
+	@echo "... src/alkane/geometry/sprite2d.i"
+	@echo "... src/alkane/geometry/sprite2d.s"
 .PHONY : help
 
 

@@ -1,6 +1,6 @@
 #pragma once
 
-struct Box2 { // Bounding Box (AxisAlignedBoundingBox)
+struct Box2D { // Bounding Box (AxisAlignedBoundingBox)
     float x, y;
     float width, height;
 };

@@ -1,5 +1,5 @@
 #pragma once
-#include <alkane/geometry/geometry.hpp>
+#include <alkane/geometry/box2d.hpp>
 #include <alkane/physics/constants.hpp>
 #include <string>
 
@@ -107,7 +107,7 @@ struct Body {
     } */
 
     // for collision
-    Box2 bounds() const {
+    Box2D bounds() const {
         float w = hitboxW > 0 ? hitboxW : width;
         float h = hitboxH > 0 ? hitboxH : height;
         return {x + hitboxX, y + hitboxY, w, h};

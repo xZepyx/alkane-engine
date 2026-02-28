@@ -4,7 +4,8 @@ example: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
   CMakeFiles/example.dir/examples/main.cpp.o \
   CMakeFiles/example.dir/external/glad.c.o \
-  CMakeFiles/example.dir/src/alkane/renderer/sprite.cpp.o \
+  CMakeFiles/example.dir/src/alkane/geometry/mesh2d.cpp.o \
+  CMakeFiles/example.dir/src/alkane/geometry/sprite2d.cpp.o \
   /usr/lib/libglfw.so.3.4 \
   /usr/lib/libfreetype.so \
   /usr/lib/libGLX.so \
@@ -57,7 +58,9 @@ CMakeFiles/example.dir/examples/main.cpp.o:
 
 CMakeFiles/example.dir/external/glad.c.o:
 
-CMakeFiles/example.dir/src/alkane/renderer/sprite.cpp.o:
+CMakeFiles/example.dir/src/alkane/geometry/mesh2d.cpp.o:
+
+CMakeFiles/example.dir/src/alkane/geometry/sprite2d.cpp.o:
 
 /usr/lib/libglfw.so.3.4:
 

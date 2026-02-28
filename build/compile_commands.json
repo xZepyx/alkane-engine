@@ -13,8 +13,14 @@
 },
 {
   "directory": "/home/zepyx/Projects/Git/alkane-framework/alkane-engine/build",
-  "command": "/usr/bin/c++  -I/home/zepyx/Projects/Git/alkane-framework/alkane-engine/external -I/home/zepyx/Projects/Git/alkane-framework/alkane-engine/src -I/usr/include/freetype2 -std=c++20 -o CMakeFiles/example.dir/src/alkane/renderer/sprite.cpp.o -c /home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/renderer/sprite.cpp",
-  "file": "/home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/renderer/sprite.cpp",
-  "output": "CMakeFiles/example.dir/src/alkane/renderer/sprite.cpp.o"
+  "command": "/usr/bin/c++  -I/home/zepyx/Projects/Git/alkane-framework/alkane-engine/external -I/home/zepyx/Projects/Git/alkane-framework/alkane-engine/src -I/usr/include/freetype2 -std=c++20 -o CMakeFiles/example.dir/src/alkane/geometry/mesh2d.cpp.o -c /home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/geometry/mesh2d.cpp",
+  "file": "/home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/geometry/mesh2d.cpp",
+  "output": "CMakeFiles/example.dir/src/alkane/geometry/mesh2d.cpp.o"
+},
+{
+  "directory": "/home/zepyx/Projects/Git/alkane-framework/alkane-engine/build",
+  "command": "/usr/bin/c++  -I/home/zepyx/Projects/Git/alkane-framework/alkane-engine/external -I/home/zepyx/Projects/Git/alkane-framework/alkane-engine/src -I/usr/include/freetype2 -std=c++20 -o CMakeFiles/example.dir/src/alkane/geometry/sprite2d.cpp.o -c /home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/geometry/sprite2d.cpp",
+  "file": "/home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/geometry/sprite2d.cpp",
+  "output": "CMakeFiles/example.dir/src/alkane/geometry/sprite2d.cpp.o"
 }
 ]

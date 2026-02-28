@@ -100,32 +100,48 @@ CMakeFiles/example.dir/external/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/example.dir/external/glad.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zepyx/Projects/Git/alkane-framework/alkane-engine/external/glad.c -o CMakeFiles/example.dir/external/glad.c.s
 
-CMakeFiles/example.dir/src/alkane/renderer/sprite.cpp.o: CMakeFiles/example.dir/flags.make
-CMakeFiles/example.dir/src/alkane/renderer/sprite.cpp.o: /home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/renderer/sprite.cpp
-CMakeFiles/example.dir/src/alkane/renderer/sprite.cpp.o: CMakeFiles/example.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zepyx/Projects/Git/alkane-framework/alkane-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/example.dir/src/alkane/renderer/sprite.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example.dir/src/alkane/renderer/sprite.cpp.o -MF CMakeFiles/example.dir/src/alkane/renderer/sprite.cpp.o.d -o CMakeFiles/example.dir/src/alkane/renderer/sprite.cpp.o -c /home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/renderer/sprite.cpp
+CMakeFiles/example.dir/src/alkane/geometry/mesh2d.cpp.o: CMakeFiles/example.dir/flags.make
+CMakeFiles/example.dir/src/alkane/geometry/mesh2d.cpp.o: /home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/geometry/mesh2d.cpp
+CMakeFiles/example.dir/src/alkane/geometry/mesh2d.cpp.o: CMakeFiles/example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zepyx/Projects/Git/alkane-framework/alkane-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/example.dir/src/alkane/geometry/mesh2d.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example.dir/src/alkane/geometry/mesh2d.cpp.o -MF CMakeFiles/example.dir/src/alkane/geometry/mesh2d.cpp.o.d -o CMakeFiles/example.dir/src/alkane/geometry/mesh2d.cpp.o -c /home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/geometry/mesh2d.cpp
 
-CMakeFiles/example.dir/src/alkane/renderer/sprite.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/example.dir/src/alkane/renderer/sprite.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/renderer/sprite.cpp > CMakeFiles/example.dir/src/alkane/renderer/sprite.cpp.i
+CMakeFiles/example.dir/src/alkane/geometry/mesh2d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/example.dir/src/alkane/geometry/mesh2d.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/geometry/mesh2d.cpp > CMakeFiles/example.dir/src/alkane/geometry/mesh2d.cpp.i
 
-CMakeFiles/example.dir/src/alkane/renderer/sprite.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/alkane/renderer/sprite.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/renderer/sprite.cpp -o CMakeFiles/example.dir/src/alkane/renderer/sprite.cpp.s
+CMakeFiles/example.dir/src/alkane/geometry/mesh2d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/alkane/geometry/mesh2d.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/geometry/mesh2d.cpp -o CMakeFiles/example.dir/src/alkane/geometry/mesh2d.cpp.s
+
+CMakeFiles/example.dir/src/alkane/geometry/sprite2d.cpp.o: CMakeFiles/example.dir/flags.make
+CMakeFiles/example.dir/src/alkane/geometry/sprite2d.cpp.o: /home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/geometry/sprite2d.cpp
+CMakeFiles/example.dir/src/alkane/geometry/sprite2d.cpp.o: CMakeFiles/example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zepyx/Projects/Git/alkane-framework/alkane-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/example.dir/src/alkane/geometry/sprite2d.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example.dir/src/alkane/geometry/sprite2d.cpp.o -MF CMakeFiles/example.dir/src/alkane/geometry/sprite2d.cpp.o.d -o CMakeFiles/example.dir/src/alkane/geometry/sprite2d.cpp.o -c /home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/geometry/sprite2d.cpp
+
+CMakeFiles/example.dir/src/alkane/geometry/sprite2d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/example.dir/src/alkane/geometry/sprite2d.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/geometry/sprite2d.cpp > CMakeFiles/example.dir/src/alkane/geometry/sprite2d.cpp.i
+
+CMakeFiles/example.dir/src/alkane/geometry/sprite2d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/alkane/geometry/sprite2d.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/geometry/sprite2d.cpp -o CMakeFiles/example.dir/src/alkane/geometry/sprite2d.cpp.s
 
 # Object files for target example
 example_OBJECTS = \
 "CMakeFiles/example.dir/examples/main.cpp.o" \
 "CMakeFiles/example.dir/external/glad.c.o" \
-"CMakeFiles/example.dir/src/alkane/renderer/sprite.cpp.o"
+"CMakeFiles/example.dir/src/alkane/geometry/mesh2d.cpp.o" \
+"CMakeFiles/example.dir/src/alkane/geometry/sprite2d.cpp.o"
 
 # External object files for target example
 example_EXTERNAL_OBJECTS =
 
 example: CMakeFiles/example.dir/examples/main.cpp.o
 example: CMakeFiles/example.dir/external/glad.c.o
-example: CMakeFiles/example.dir/src/alkane/renderer/sprite.cpp.o
+example: CMakeFiles/example.dir/src/alkane/geometry/mesh2d.cpp.o
+example: CMakeFiles/example.dir/src/alkane/geometry/sprite2d.cpp.o
 example: CMakeFiles/example.dir/build.make
 example: CMakeFiles/example.dir/compiler_depend.ts
 example: /usr/lib/libglfw.so.3.4
@@ -133,7 +149,7 @@ example: /usr/lib/libfreetype.so
 example: /usr/lib/libGLX.so
 example: /usr/lib/libOpenGL.so
 example: CMakeFiles/example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/zepyx/Projects/Git/alkane-framework/alkane-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/zepyx/Projects/Git/alkane-framework/alkane-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable example"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/example.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

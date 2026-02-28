@@ -54,9 +54,10 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # SOURCES at CMakeLists.txt:11 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/renderer/*.cpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/geometry/*.cpp")
 set(OLD_GLOB
-  "/home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/renderer/sprite.cpp"
+  "/home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/geometry/mesh2d.cpp"
+  "/home/zepyx/Projects/Git/alkane-framework/alkane-engine/src/alkane/geometry/sprite2d.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

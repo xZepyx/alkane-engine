@@ -11,7 +11,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS
     external/*.c
     examples/*.cpp
-    src/alkane/renderer/*.cpp
+    src/alkane/geometry/*.cpp
 )
 
 add_executable(${PROJECT_NAME} ${SOURCES})

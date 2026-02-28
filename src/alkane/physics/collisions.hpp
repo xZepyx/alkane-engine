@@ -11,15 +11,15 @@ enum class CollisionType {
 namespace physics {
 
 // AABB collision check
-inline bool checkCollision(const Box2 &a, const Box2 &b) { // takes two bouding boxes
+inline bool checkCollision(const Box2D &a, const Box2D &b) { // takes two bouding boxes
     return (a.x < b.x + b.width) && (a.x + a.width > b.x) &&
            (a.y < b.y + b.height) && (a.y + a.height > b.y);
 }
 
 // Main collision resolver
 inline void resolveCollision(Body &a, Body &b, CollisionType type) {
-    Box2 A = a.bounds();
-    Box2 B = b.bounds();
+    Box2D A = a.bounds();
+    Box2D B = b.bounds();
 
     if (!checkCollision(A, B))
         return;
