@@ -1,9 +1,4 @@
-#include <alkane/physics/collisions.hpp>
-#include <alkane/graphics/texture.hpp>
-#include <alkane/engine.hpp>
-#include <alkane/input/input.hpp>
-#include <alkane/graphics/graphics.hpp>
-#include <alkane/renderer/sprite.hpp>
+#include <alkane/alkane.hpp>
 
 static Body playerBody{100, 50, 128, 128, "#FFFFFF", 1.0f};
 static Body wallBody{200, 200, 100, 100, "#FF0000", 1.0f};
