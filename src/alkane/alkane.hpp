@@ -1,6 +1,7 @@
 // Umbrella - Header
 #pragma once
 
+#include "engine.hpp"
 #include "audio/audio.hpp"
 #include "input/input.hpp"
 #include "geometry/geometry.hpp"
@@ -10,5 +11,5 @@
 #include "renderer/renderer.hpp"
 #include "renderer/renderable.hpp"
 #include "renderer/sprite.hpp"
+#include "graphics/texture.hpp"
 #include "renderer/text.hpp"
-#include "engine.hpp"
