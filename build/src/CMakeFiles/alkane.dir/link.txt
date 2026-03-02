@@ -1,0 +1,2 @@
+/usr/bin/ar qc libalkane.a CMakeFiles/alkane.dir/external/glad.c.o
+/usr/bin/ranlib libalkane.a

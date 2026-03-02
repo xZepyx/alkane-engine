@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/zepyx/Projects/Git/zepyx/alkane-engine/build/cmake_install.cmake",
+		"/home/zepyx/Projects/Git/zepyx/alkane-engine/build/src/cmake_install.cmake",
+		"/home/zepyx/Projects/Git/zepyx/alkane-engine/build/examples/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

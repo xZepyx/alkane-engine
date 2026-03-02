@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/zepyx/Projects/Git/zepyx/alkane-engine/build",
+  "command": "/usr/bin/clang -I/home/zepyx/Projects/Git/zepyx/alkane-engine/src -I/home/zepyx/Projects/Git/zepyx/alkane-engine/src/alkane -I/home/zepyx/Projects/Git/zepyx/alkane-engine/src/external -g -o src/CMakeFiles/alkane.dir/external/glad.c.o -c /home/zepyx/Projects/Git/zepyx/alkane-engine/src/external/glad.c",
+  "file": "/home/zepyx/Projects/Git/zepyx/alkane-engine/src/external/glad.c",
+  "output": "/home/zepyx/Projects/Git/zepyx/alkane-engine/build/src/CMakeFiles/alkane.dir/external/glad.c.o"
+},
+{
+  "directory": "/home/zepyx/Projects/Git/zepyx/alkane-engine/build",
+  "command": "/usr/bin/clang++ -I/home/zepyx/Projects/Git/zepyx/alkane-engine/src -I/home/zepyx/Projects/Git/zepyx/alkane-engine/src/alkane -I/home/zepyx/Projects/Git/zepyx/alkane-engine/src/external -g -std=gnu++20 -o examples/CMakeFiles/test.dir/test.cpp.o -c /home/zepyx/Projects/Git/zepyx/alkane-engine/examples/test.cpp",
+  "file": "/home/zepyx/Projects/Git/zepyx/alkane-engine/examples/test.cpp",
+  "output": "/home/zepyx/Projects/Git/zepyx/alkane-engine/build/examples/CMakeFiles/test.dir/test.cpp.o"
+}
+]

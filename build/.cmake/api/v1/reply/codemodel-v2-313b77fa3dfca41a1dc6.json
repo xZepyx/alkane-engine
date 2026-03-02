@@ -1,0 +1,191 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "OpenGL::EGL::@145eef247bfb46b6828c",
+					"jsonFile" : "target-OpenGL__EGL-Debug-84cfa314abfbfa64ad67.json",
+					"name" : "OpenGL::EGL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "OpenGL::GL::@145eef247bfb46b6828c",
+					"jsonFile" : "target-OpenGL__GL-Debug-64dfce9fe1b6de9ea8c4.json",
+					"name" : "OpenGL::GL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "OpenGL::GLES2::@145eef247bfb46b6828c",
+					"jsonFile" : "target-OpenGL__GLES2-Debug-7b83d3a823be85ed6d7c.json",
+					"name" : "OpenGL::GLES2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "OpenGL::GLES3::@145eef247bfb46b6828c",
+					"jsonFile" : "target-OpenGL__GLES3-Debug-4b58cceb07ee82b1f1ea.json",
+					"name" : "OpenGL::GLES3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "OpenGL::GLU::@145eef247bfb46b6828c",
+					"jsonFile" : "target-OpenGL__GLU-Debug-9943d93ad8f592eab4b6.json",
+					"name" : "OpenGL::GLU",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "OpenGL::GLX::@145eef247bfb46b6828c",
+					"jsonFile" : "target-OpenGL__GLX-Debug-c6d57d83e029bf3c6cbc.json",
+					"name" : "OpenGL::GLX",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "OpenGL::OpenGL::@145eef247bfb46b6828c",
+					"jsonFile" : "target-OpenGL__OpenGL-Debug-8fc3fbe52f244658c648.json",
+					"name" : "OpenGL::OpenGL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Threads::Threads::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Threads__Threads-Debug-d4b6f92edfb60cf4b581.json",
+					"name" : "Threads::Threads",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "glfw::@145eef247bfb46b6828c",
+					"jsonFile" : "target-glfw-Debug-8355ad283230fd02504e.json",
+					"name" : "glfw",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-9ad1a58d4644cf6543fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-c61fb49069c3d1aa76de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "examples",
+					"jsonFile" : "directory-examples-Debug-b031b47ad7104f1f4794.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "alkane",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "alkane::@145eef247bfb46b6828c",
+					"jsonFile" : "target-alkane-Debug-0231ec99d21d50e3acac.json",
+					"name" : "alkane",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-test-Debug-07e2a9cb3681bfa6f33a.json",
+					"name" : "test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zepyx/Projects/Git/zepyx/alkane-engine/build",
+		"source" : "/home/zepyx/Projects/Git/zepyx/alkane-engine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}
