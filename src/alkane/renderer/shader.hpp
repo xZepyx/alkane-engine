@@ -81,6 +81,12 @@ class Shader
             glUniform3f(location(name), x, y, z);
         }
 
+        void setVec4(const std::string& name,
+                    float x, float y,
+                    float z, float w) const {
+            glUniform4f(location(name), x, y, z, w);
+        }
+
         void setMat4(const std::string& name, const float* m) const {
             glUniformMatrix4fv(location(name), 1, GL_FALSE, m);
         }

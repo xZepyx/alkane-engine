@@ -1,9 +1,4 @@
-#pragma once
-
-#include <vector>
-#include <memory>
-#include "renderer/renderable.hpp"
-#pragma once
+#pragma  once 
 
 #include <vector>
 #include <memory>
@@ -30,9 +25,9 @@ public:
         return ref;
     }
 
-    void render() const {
+    void render(Renderer& renderer) const {
         for (const auto& obj : objects)
-            obj->draw();
+            obj->render(renderer);
     }
 
 private:

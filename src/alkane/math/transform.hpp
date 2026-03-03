@@ -6,7 +6,7 @@ struct Transform2D {
 
     float rotation = 0.0f; // radians
 
-    float sx = 0.0f;
-    float sy = 0.0f;
+    float sx = 1.0f;
+    float sy = 1.0f;
 
 };

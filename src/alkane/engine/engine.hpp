@@ -14,7 +14,7 @@ class Engine
             : window(window) {}
 
         void setUpdate(void (*cb)()) { update = cb; }
-        void setRender(void (*cb)()) { render = cb; }
+        void setRender(void (*cb)(Renderer&)) { render = cb; }
 
         Renderer& getRenderer() {
             return renderer;
@@ -26,6 +26,8 @@ class Engine
 
         void run() {
             lastTime = glfwGetTime();
+
+            renderer.setOrtho(window.getWidth(), window.getHeight());
 
             while (!window.shouldClose()) {
 
@@ -39,7 +41,7 @@ class Engine
                     update();
 
                 if (render)
-                    render();
+                    render(renderer);
 
                 window.swapBuffers();
                 window.pollEvents();
@@ -51,7 +53,7 @@ class Engine
         Renderer renderer;
 
         void (*update)() = nullptr;
-        void (*render)() = nullptr;
+        void (*render)(Renderer&) = nullptr;
 
         inline static float deltaTime;
         float lastTime = 0.0f;

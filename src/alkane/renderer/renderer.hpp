@@ -1,6 +1,8 @@
 #pragma once
 #include <glad/glad.h>
 
+#include "math/ortho.hpp"
+
 class Renderer 
 {
     public:
@@ -14,6 +16,15 @@ class Renderer
         const float* getProjection() const {
             return projection;
         }
+
+        void setOrtho(float width, float height) {
+            ortho::buildOrtho(
+                0.0f, width,
+                height, 0.0f,
+                projection
+            );
+        }
+
 
     private: 
         float projection[16]{};
