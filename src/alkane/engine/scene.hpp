@@ -25,7 +25,7 @@ public:
         return ref;
     }
 
-    void render(Renderer& renderer) const {
+    void submit(Renderer& renderer) const {
         for (const auto& obj : objects)
             obj->render(renderer);
     }

@@ -3,6 +3,8 @@
 
 #include "math/ortho.hpp"
 
+class Scene; // forward declare
+
 class Renderer 
 {
     public:
@@ -25,8 +27,19 @@ class Renderer
             );
         }
 
+        void render(const Scene& scene);
+
 
     private: 
         float projection[16]{};
 
 };
+
+
+// definition for Renderer::render
+#include "engine/scene.hpp"
+
+inline void Renderer::render(const Scene& scene)
+{
+    scene.submit(*this);
+}

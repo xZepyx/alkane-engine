@@ -14,7 +14,7 @@ namespace Colors {
 
     inline constexpr Color LightGray {200.0f/255.0f, 200.0f/255.0f, 200.0f/255.0f, 1.0f};
     inline constexpr Color Gray      {130.0f/255.0f, 130.0f/255.0f, 130.0f/255.0f, 1.0f};
-    inline constexpr Color DarkGray  { 80.0f/255.0f,  80.0f/255.0f,  80.0f/255.0f, 1.0f};
+    inline constexpr Color DarkGray  {80.0f/255.0f,  80.0f/255.0f,  80.0f/255.0f, 1.0f};
 
     inline constexpr Color Yellow    {253.0f/255.0f, 249.0f/255.0f,   0.0f/255.0f, 1.0f};
     inline constexpr Color Gold      {255.0f/255.0f, 203.0f/255.0f,   0.0f/255.0f, 1.0f};

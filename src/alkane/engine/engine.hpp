@@ -2,6 +2,7 @@
 
 #include "platform/window.hpp"
 #include "renderer/renderer.hpp"
+#include "input/input.hpp"
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
@@ -34,8 +35,6 @@ class Engine
                 float current = glfwGetTime();
                 deltaTime = current - lastTime;
                 lastTime = current;
-
-                renderer.clear(1.0f,1.0f,1.0f,1.0f); // clear frame
 
                 if (update)
                     update();
