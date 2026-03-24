@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/zepyx/Projects/Git/zepyx/alkane-engine/examples/test.cpp" "examples/CMakeFiles/test.dir/test.cpp.o" "gcc" "examples/CMakeFiles/test.dir/test.cpp.o.d"
+  "/home/zepyx/Projects/alkane-engine/examples/test.cpp" "examples/CMakeFiles/test.dir/test.cpp.o" "gcc" "examples/CMakeFiles/test.dir/test.cpp.o.d"
   "" "examples/test" "gcc" "examples/CMakeFiles/test.dir/link.d"
   )
 

@@ -7,3 +7,5 @@
 #include "platform/window.hpp"
 #include "renderer/shader.hpp"
 #include "primitives/primitives.hpp"
+#include "renderer/mesh.hpp"
+#include "audio/audio.hpp"

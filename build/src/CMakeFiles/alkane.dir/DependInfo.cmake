@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/zepyx/Projects/Git/zepyx/alkane-engine/src/external/glad.c" "src/CMakeFiles/alkane.dir/external/glad.c.o" "gcc" "src/CMakeFiles/alkane.dir/external/glad.c.o.d"
+  "/home/zepyx/Projects/alkane-engine/src/external/glad.c" "src/CMakeFiles/alkane.dir/external/glad.c.o" "gcc" "src/CMakeFiles/alkane.dir/external/glad.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,6 +1,7 @@
 // This is not a commercial example. This example is used for testing only.
 
 #include "../src/alkane/alkane.hpp"
+#include "renderer/mesh.hpp"
 #include "engine/scene.hpp"
 #include "math/colors.hpp"
 #include "platform/window.hpp"
@@ -12,8 +13,12 @@ auto &tri = scene.create<Triangle>("src/alkane/shaders/default.vert",
                                    "src/alkane/shaders/default.frag");
 
 void update() {
+  audio::init();
   input::update(window.getNative());
-
+  if (!played) {
+    audio::play("/usr/share/sounds/oxygen/stereo/camera-shutter.wav");
+    played = true;
+  }
   if (input::isKeyDown(KEY_S))
     tri.transform.y += 5.0f;
   if (input::isKeyDown(KEY_W))

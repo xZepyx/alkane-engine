@@ -1,5 +1,5 @@
-src/CMakeFiles/alkane.dir/alkane/external/glad.c.o: \
- /home/zepyx/Projects/Git/zepyx/alkane-engine/src/alkane/external/glad.c \
+src/CMakeFiles/alkane.dir/external/glad.c.o: \
+ /home/zepyx/Projects/alkane-engine/src/external/glad.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
@@ -34,8 +34,8 @@ src/CMakeFiles/alkane.dir/alkane/external/glad.c.o: \
  /usr/include/bits/types/once_flag.h /usr/include/bits/stdlib-float.h \
  /usr/include/string.h /usr/include/bits/types/locale_t.h \
  /usr/include/bits/types/__locale_t.h /usr/include/strings.h \
- /home/zepyx/Projects/Git/zepyx/alkane-engine/src/alkane/external/glad/glad.h \
- /home/zepyx/Projects/Git/zepyx/alkane-engine/src/alkane/external/KHR/khrplatform.h \
+ /home/zepyx/Projects/alkane-engine/src/external/glad/glad.h \
+ /home/zepyx/Projects/alkane-engine/src/external/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-uintn.h /usr/include/bits/stdint-least.h

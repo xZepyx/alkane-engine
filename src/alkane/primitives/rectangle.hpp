@@ -9,14 +9,22 @@
 #include "math/colors.hpp"
 #include "string"
 
-class Triangle : public Renderable {
+class Rectangle : public Renderable {
   public:
-    Triangle(const std::string &vs,
+    Rectangle(const std::string &vs,
              const std::string &fs)
         : shader(vs, fs),
-          mesh({0.0f, 100.0f, 0.0f,
+            mesh({
+                // Triangle 1
+                0.0f, 100.0f, 0.0f,
                 100.0f, 100.0f, 0.0f,
-                50.0f, 0.0f, 0.0f}) {}
+                0.0f, 0.0f, 0.0f,
+
+                // Triangle 2
+                0.0f, 0.0f, 0.0f,
+                100.0f, 100.0f, 0.0f,
+                100.0f, 0.0f, 0.0f
+            }) {}
 
     void render(Renderer &renderer) const override {
         shader.use();

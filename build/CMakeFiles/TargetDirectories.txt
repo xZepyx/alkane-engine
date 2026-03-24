@@ -1,8 +1,8 @@
-/home/zepyx/Projects/Git/zepyx/alkane-engine/build/CMakeFiles/edit_cache.dir
-/home/zepyx/Projects/Git/zepyx/alkane-engine/build/CMakeFiles/rebuild_cache.dir
-/home/zepyx/Projects/Git/zepyx/alkane-engine/build/src/CMakeFiles/alkane.dir
-/home/zepyx/Projects/Git/zepyx/alkane-engine/build/src/CMakeFiles/edit_cache.dir
-/home/zepyx/Projects/Git/zepyx/alkane-engine/build/src/CMakeFiles/rebuild_cache.dir
-/home/zepyx/Projects/Git/zepyx/alkane-engine/build/examples/CMakeFiles/test.dir
-/home/zepyx/Projects/Git/zepyx/alkane-engine/build/examples/CMakeFiles/edit_cache.dir
-/home/zepyx/Projects/Git/zepyx/alkane-engine/build/examples/CMakeFiles/rebuild_cache.dir
+/home/zepyx/Projects/alkane-engine/build/CMakeFiles/edit_cache.dir
+/home/zepyx/Projects/alkane-engine/build/CMakeFiles/rebuild_cache.dir
+/home/zepyx/Projects/alkane-engine/build/src/CMakeFiles/alkane.dir
+/home/zepyx/Projects/alkane-engine/build/src/CMakeFiles/edit_cache.dir
+/home/zepyx/Projects/alkane-engine/build/src/CMakeFiles/rebuild_cache.dir
+/home/zepyx/Projects/alkane-engine/build/examples/CMakeFiles/test.dir
+/home/zepyx/Projects/alkane-engine/build/examples/CMakeFiles/edit_cache.dir
+/home/zepyx/Projects/alkane-engine/build/examples/CMakeFiles/rebuild_cache.dir

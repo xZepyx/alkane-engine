@@ -15,4 +15,7 @@ target_link_libraries(alkane
     PUBLIC
     OpenGL::GL
     glfw
+    pulse-simple
+    pulse
+    asound
 )
